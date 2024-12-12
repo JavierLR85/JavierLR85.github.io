@@ -1,0 +1,68 @@
+.kanit-extralight {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+body {
+    color: black;
+    font-family: Kanit;
+    
+  }
+  footer{
+    text-align: center;
+    background-color: gray;
+  }
+  header {
+    background-color: #0066cc; 
+   
+    text-align: center;
+    padding: 5px;
+    border-radius: 2rlh;
+}
+
+h2 {
+    color: #0066cc;
+}
+ 
+a{
+color: black;
+   font-family: Verdana;
+   font-weight: bold;
+}
+h3 a {
+    text-decoration: none;
+    color: black;
+    padding: 15px 30px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    display: inline-block;
+   text-align: center;
+  }
+  
+  h3 a:hover {
+    background-color: #040808;
+    color: #fff;
+    transform: scale(1.1);
+  }
+  .image-container {
+    display: flex; 
+    justify-content: center; 
+    gap: 50px; 
+    margin-top: 20px;
+    
+}
+
+.image-container img {
+    width: 350px; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.image-container img:hover {
+    transform: scale(1.2); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+
